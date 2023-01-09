@@ -41,7 +41,7 @@ botonesFrm.grid(row=2, column=0, sticky="EW")
 botonesFrm.columnconfigure(0, weight=1)
 botonesFrm.columnconfigure(1, weight=1)
 
-bajarBtn = ttk.Button(botonesFrm, text="Bajar video", command=bajar())
+bajarBtn = ttk.Button(botonesFrm, text="Bajar video", command=bajar)
 bajarBtn.grid(row=0, column=0, sticky="EW")
 
 salirBtn = ttk.Button(botonesFrm, text="Salir", command=root.destroy)
