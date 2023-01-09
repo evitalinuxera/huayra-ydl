@@ -10,6 +10,7 @@ def bajar():
 # Ventana ppal
 root = tk.Tk()
 root.geometry("600x300")
+root.resizable(False, False)
 root.title("Huayra YDL")
 root.columnconfigure(0,weight=1)
 
